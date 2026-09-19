@@ -1,0 +1,14 @@
+{
+  "name": "astro-vercel-redirect-trailing-slash-repro",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "astro build",
+    "repro": "node repro.mjs"
+  },
+  "packageManager": "pnpm@12.3.4",
+  "dependencies": {
+    "@astrojs/vercel": "11.0.10",
+    "astro": "7.3.1"
+  }
+}

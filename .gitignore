@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.astro/
+# Keep only config.json from the build output: it is the artifact that shows the bug.
+.vercel/output/static/
+.vercel/output/functions/
